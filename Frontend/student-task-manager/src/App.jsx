@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 // Auth
 import AuthForm from "./components/AuthForm";
-import AuthModal from "./components/AuthModal";
+import AuthModal from "./components/AuthModel";
 
 // Layout
 import Header from "./components/Header";

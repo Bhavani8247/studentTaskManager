@@ -10,6 +10,8 @@ export default function TaskList() {
     setTasks(res.data);
   };
 
+  console.log(tasks);
+
   useEffect(() => { load(); }, []);
 
   return (
